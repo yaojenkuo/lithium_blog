@@ -1,0 +1,29 @@
+---
+title: Test of R and Python codes
+author: Tony Kuo
+date: '2020-01-04'
+slug: test-of-r-and-python-codes
+categories: []
+tags: []
+---
+
+## R codes
+
+```{r}
+plot(iris)
+summary(iris)
+```
+
+## Python codes
+
+```{r}
+library(reticulate)
+```
+
+```{python}
+import sys
+
+print(sys.version)
+for i in range(10):
+  print("Hello world!")
+```
